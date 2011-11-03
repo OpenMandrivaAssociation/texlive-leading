@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/leading
+# catalog-date 2008-12-15 18:32:16 +0100
+# catalog-license lppl
+# catalog-version 0.3
 Name:		texlive-leading
 Version:	0.3
 Release:	1
@@ -46,6 +52,7 @@ the leading is specified by reference to the font size.
 #- source
 %doc %{_texmfdistdir}/source/latex/leading/leading.dtx
 %doc %{_texmfdistdir}/source/latex/leading/leading.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ the leading is specified by reference to the font size.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
