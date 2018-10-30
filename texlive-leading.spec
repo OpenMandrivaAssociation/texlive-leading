@@ -6,7 +6,7 @@
 # catalog-version 0.3
 Name:		texlive-leading
 Version:	0.3
-Release:	10
+Release:	11
 Summary:	Define leading with a length
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/leading
