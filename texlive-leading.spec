@@ -1,6 +1,6 @@
 Name:		texlive-leading
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Define leading with a length
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/leading
