@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Define leading with a length
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/leading
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/leading
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/leading.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/leading.doc.r%{version}.tar.xz
